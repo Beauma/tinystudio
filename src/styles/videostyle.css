@@ -1,0 +1,21 @@
+video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+h1 { 
+    color: white; 
+    -webkit-text-stroke: 0.01em black;
+    font-family: "Helvetica Neue", 
+    Helvetica, Arial, sans-serif; 
+    font-size: 10em !important; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    float: left;
+}

@@ -1,0 +1,21 @@
+.card {
+    background-color: rgba(245, 245, 245, 0);
+    border: none; 
+    color: white; 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+.card-header {
+    background-color: rgba(245, 245, 245, 0);
+    border: none; 
+    padding: 0; 
+    font-size: 1.5em; 
+    -webkit-text-stroke: 0.01em black;
+}
+
+.card-body {
+    border: 1px solid white; 
+    max-width: 360px;
+    border-radius: 1em;
+    background-color: rgba(20, 20, 20, 0.75);
+}
